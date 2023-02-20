@@ -98,8 +98,7 @@ A Snapshot for quick reference are given below:
 ![architectural diagram-Lucid Chart2](https://drive.google.com/uc?export=view&id=1XB0JvD8tnWgiwMy_216Upswm7ObgZg_f)
 **5. Create a Napkin Design**
 
-This is my Napkin Design depicting that the ***User*** upload application/website in the ***cloud*** where it will pass the ***Authentication*** and segregate via ***Load Balancer*** as a ***frontend*** which is connected to ***AppSync*** and provide the interface for real-time AND as a ***backend*** which is connected to the ***DataBase*** for storing the information that is also connected with the Appsync. Private Subnet is not connected to internet that's why I created a Nat Gateway and connected to internet gateway inorder to access the internet. I used praivate subnet to save data of production database.
-
+This is my Napkin Design depicting that the ***User*** upload application/website in the ***cloud*** where it will pass the ***Authentication*** and segregate via ***Load Balancer*** as a ***frontend*** which is connected to ***Messaging System Database*** and provide the interface for real-time AND as a ***backend*** which is connected to the ***DataBase*** for storing the information.
 
 
 ![Napkin Design](https://drive.google.com/uc?export=view&id=1_qRLK4Hj1yr_j8uSYv09uZEEMId3o2It)
